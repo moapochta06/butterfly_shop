@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@600;700&family=Ysabeau:ital,wght@0,500;1,300&display=swap');
+body{
+    background: url(../img/джунгли.jpg) no-repeat  center center ;
+    background-size: cover;
+    height:100%;
+}
+
+ul{
+    list-style: none;
+}
+header{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.authorization{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 40px;
+}
+.login{
+    background-color: transparent;
+    outline: none;
+    color: #0A5611;
+    border: #0A5611 2px solid;
+    border-radius: 9px;
+    padding: 5px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 8px;
+}
+.login:hover{
+    color: #ffffff;
+    background: #0A5611;
+    transition: 0.3s;
+} 
+.shopping-cart{
+    margin-left: 20px;
+}
+.none{
+    display: none;
+}
+
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.butterfly-title{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: 600;
+    margin:60px 0 50px  0;
+}
+
+.butterfly-list{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    row-gap: 80px;
+}
+
+.butterfly-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #298631;
+    background: #E3EEE4;
+    border-radius: 15px;
+    
+}
+.butterfly-img{
+    width: 300px;
+    margin-top: -45px;
+    margin-bottom: -50px;
+}
+.counter-and-price{
+    display:flex; 
+    gap:55px;
+    padding: 30px;
+    
+}
+.counter-wrapper{
+    display: flex;
+    font-size: 20px;
+    border:#298631 1px solid;
+    border-radius: 9px;
+}
+.minus, .plus{
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.minus:hover{
+    background: #298631;
+    color: #fff;
+    border-radius:  9px 0 0 9px ;
+    transition: ease-in-out 0.3s;
+}
+ .plus:hover{
+    background: #298631;
+    color: #fff;
+    border-radius: 0 9px 9px 0;
+    transition: ease-in-out 0.3s;
+    
+}
+.number{
+    background: #298631;
+     color:#fff;
+      padding:5px 10px
+}
+
+.butterfly-price{
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif ;
+    font-weight: 700;
+}
+
+.butterfly-item button{
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    background: #298631;
+    font-size: 20px;
+    border: none;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butterfly-item button:hover{
+    background: #0A5611;
+    transition: ease-in-out 0.3s;
+}
+
+
+
+
